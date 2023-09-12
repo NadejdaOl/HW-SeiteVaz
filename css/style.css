@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    font-family: "GraphikFamily", sans-serif;
+    color: #FFF;
+}
+
+.header-main {
+    background-color: #181818;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 37.5px 39px 37.5px 116.5px ;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+
+.navbar-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+
+}
+
+.navbar-wrap a:hover{
+    color: rgb(212, 23, 196);
+    transition: all .07s ease-in-out;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar .login{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    height: 52px;
+    background-color: transparent;
+    padding: 3.5px 36px;
+    font-family: Graphik;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.navbar .login:hover{
+    color: rgb(212, 23, 196);
+    transition: all .07s ease-in-out;
+    border-color: rgb(212, 23, 196);
+    transform: scale(1.04)
+}
+
+.logo-container { 
+    width: 186px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6%;
+    margin-left: 10%;
+    
+}
+
+.FirstImage {
+    background-color: #181818;  
+}
+
+.Chapter{
+    margin: 4% 27.5% 4% 27.5%;   
+}
+
+.Chapter h2 {
+    color: #ffffff;
+    font-family: Graphik;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-bottom: 35px;
+    text-align: center;
+    line-height: 5.2rem;   
+}
+
+.Chapter p {
+    color: #ffffff;
+    font-family: Graphik;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.btn1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Graphik;
+    margin-top: 5rem;
+    gap: 30px;
+}
+
+.first_box{
+    width: 178px;
+    height: 65px;
+    background-color: #181818;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+
+}
+
+.second_box{
+    width: 178px;
+    height: 65px;
+    background-color: #181818;
+    color: #ffffff;
+    
+    border: 1px solid #ffffff;
+    margin-left: 35px;
+}
+
+.btn1 .first_box:hover {
+    background-color: #4452FE;
+    outline: none;
+    border: none;
+    transition: all .07s ease-in-out;
+    transform: scale(1.04)
+}
+
+.btn1 .second_box:hover{
+    background-color: #4452FE;
+    outline: none;
+    border: none;
+    transition: all .07s ease-in-out;
+    transform: scale(1.04)
+}
+
+.screens {
+    display: flex;
+    background-color: #181818;
+    position: relative;
+    max-height: 841px ;
+    margin-bottom: 18%;
+}
+
+
+.Gradient{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: 34%;
+    z-index: 2;
+}
+
+.screen img{
+    display: block;
+    max-width: 100%;
+    position: relative;  
+}
+
+
+.Features {
+    background-color: #181818;
+    width: 100%;
+    position: absolute;
+}
+
+.Grafik {
+max-width: 1579px;
+
+}
+
+.MainGrafik{
+    max-width: 1479px;
+    padding: 3% 5%;
+    gap: 80px;
+}
+
+.Grafik h2{
+    color: #ffffff;
+    font-size: 3.2rem;
+    font-family: Graphik;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.Grafik p{
+    font-size: 20px;
+    font-family: Graphik;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-left: 31.5%;
+    padding-right: 31.5%;
+    padding-bottom: 80px;
+}
+
+.Features-Wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    padding-bottom: 61.5px;
+    margin-left: 14%;
+}
+
+.Shema{
+    position: relative;
+    max-width: 759px;
+}
+
+.ChatBot img{
+    padding: 0.5px 28px 100px 28px ;
+    z-index: 1;
+}
+
+.LineChart img {
+    position: absolute;
+    z-index: 3;
+    left:344px;
+    bottom: -160px;
+    top: 455px;
+
+}
+
+.ReasonsBox{
+    max-width: 309px;
+    padding: 54px 27px 54px 27px;
+    gap: 35px;
+}
+
+.firstReason{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstReason img{
+    display: flex;
+    width: 25.49px;
+    height: 23.66px;
+    float: left;
+    margin-right: 10px ;
+}
+
+.firstReason h4, .secondReason h4, .thirdReason h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    font-family: Graphik;
+    line-height: 1.9rem;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.Image1 p, .Image2, .Image3{
+    width: 269px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding-bottom: 45px;
+    margin-bottom: 35px;
+
+}
+
+.secondReason img{
+    display: flex;
+    width: 29px;
+    height: 30px;
+    float: left;
+    margin-right: 10px ;
+}
+
+.thirdReason img{
+    display: flex;
+    width: 41px;
+    height: 19px;
+    float: left;
+    margin-right: 10px ;
+}
+
+.secondReason{
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdReason{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.screens .ChatBot{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-top: 21%;
+    margin-right: 4%;
+    top: -110%;
+    right: 8%;
+    
+} 
+
+
+
+@font-face {
+    font-family: "GraphikFamily";
+    src: url("../css/Graphik-Font-Family/GraphikBlack.otf") format("otf"),
+    url("../css/Graphik-Font-Family/GraphikBold.otf") format("otf"),
+    url("../css/Graphik-Font-Family/GraphikRegular.otf") format("otf");;
+    font-style: normal;
+    font-weight: normal;
+}
